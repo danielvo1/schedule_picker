@@ -5,7 +5,7 @@ setInterval(function() {
     // console.log(time);
 } , 1000 );
 
-$('#exampleModal').on('click', function () {
+$('#exampleModal').on('select', function () {
     $('#exampleModal').trigger('focus')
 
     console.log("thisis what clicked", );
